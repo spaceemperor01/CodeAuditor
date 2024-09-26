@@ -1,0 +1,54 @@
+报告 main.c
+统计结果:
+发现高危函数 0 个
+发现普通危险函数 1 个
+发现低危函数 0 个
+发现测试函数 9 个
+发现无效函数 7 个
+高危函数列表:
+中等危险函数列表:
+getchar:
+位于 main.c 52行
+如果在循环中使用该函数，确保检查缓冲区边界
+如果在循环中使用该函数，确保检查缓冲区边界
+低风险函数列表:
+测试函数列表:
+fopen_s:
+位于 main.c 20行
+测试
+printf:
+位于 main.c 25行
+测试
+printf:
+位于 main.c 32行
+测试
+printf:
+位于 main.c 37行
+测试
+printf:
+位于 main.c 43行
+测试
+strcpy_s:
+位于 main.c 44行
+测试
+system:
+位于 main.c 46行
+测试
+fopen_s:
+位于 main.c 63行
+测试
+system:
+位于 main.c 67行
+测试
+无效函数列表:
+main
+位于main.c 16行
+make_rand
+位于initialize.h 3行
+zeros_data
+位于discipline.h 3行
+sigmoid_prime
+位于discipline.h 4行
+sigmoid
+位于discipline.h 5行
+backprop

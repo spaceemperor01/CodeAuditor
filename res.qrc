@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/file.png</file>
+        <file>res/folder.png</file>
+        <file>res/folder.png</file>
+        <file>res/fun.png</file>
+        <file>res/parameter.png</file>
+        <file>res/function.png</file>
+         <file>res/struct.png</file>
+         <file>res/variable.png</file>
+         <file>res/data.png</file>
+         <file>res/danger.txt</file>
+    </qresource>
+</RCC>
